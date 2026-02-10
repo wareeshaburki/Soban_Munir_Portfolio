@@ -5,7 +5,7 @@ const About = () => {
     <div id="about" className="scroll-mt-20">
       <h1 className="text-center mt-16 font-bold text-5xl">About Me</h1>
       <div className="flex flex-col items-center justify-between text-center mt-10 mx-4 px-10 gap-4 mb-2">
-        <p className="text-gray-400 text-center mt-6 text-sm md:text-base px-4 md:px-20">
+        <p className="text-gray-400 text-center mt-6 text-sm md:text-base px-4 md:px-26 leading-relaxed">
           Hi, I am a Data Engineer based in Lahore ,Pakistan, currently pursuing
           my BS in Computer Science at Riphah International University. I
           specialize in building end-to-end ETL/ELT pipelines and
@@ -26,12 +26,12 @@ const About = () => {
         </div>
       </div>
       <hr className="mt-6 border border-white/20 w-[90%] mx-auto" />
-      <div className="flex justify-center gap-10">
-        <div className="mx-2">
+      <div className="flex flex-col lg:flex-row justify-center gap-6 lg:gap-10 px-4">
+        <div className="w-full max-w-[500px] mx-auto lg:mx-2">
           <h1 className="text-center text-gray-300 mt-12 font-bold text-3xl">
             My Skills
           </h1>
-          <div className="w-full max-w-[500px] h-[550px] border border-white/20 rounded-3xl mt-6 shadow-[0_0_20px_rgba(255,255,255,0.25)] overflow-hidden bg-white/5 backdrop-blur-md">
+          <div className="w-full md:w-[500px] min-h-[550px] border border-white/20 rounded-3xl mt-6 shadow-[0_0_20px_rgba(255,255,255,0.25)] bg-white/5 backdrop-blur-md overflow-hidden">
             <div className="grid grid-cols-1 sm:grid-cols-2 h-full w-full">
               <div className="border-b border-r border-white/10 p-8 flex flex-col justify-center gap-3">
                 <h3 className="text-xl font-semibold">
@@ -65,11 +65,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="mx-2">
+        <div className="w-full max-w-[500px] mx-auto lg:mx-2">
           <h1 className="text-center text-gray-300 mt-12 font-bold text-3xl">
             My Experience
           </h1>
-          <div className="w-full max-w-[500px] h-[550px] border border-white/20 rounded-3xl mt-6 shadow-[0_0_20px_rgba(255,255,255,0.25)] overflow-hidden bg-white/5 backdrop-blur-md">
+          <div className="w-full md:w-[500px] min-h-[550px] border border-white/20 rounded-3xl mt-6 shadow-[0_0_20px_rgba(255,255,255,0.25)] bg-white/5 backdrop-blur-md overflow-hidden">
             <div className="grid grid-rows-2 h-full w-full">
               <div className="p-8 flex border-b border-white/10 flex-col justify-center gap-3">
                 <h3 className="text-xl font-semibold">
