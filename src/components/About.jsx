@@ -5,7 +5,7 @@ const About = () => {
     <div id="about" className="scroll-mt-20">
       <h1 className="text-center mt-16 font-bold text-5xl">About Me</h1>
       <div className="flex flex-col items-center justify-between text-center mt-10 mx-4 px-10 gap-4 mb-2">
-        <p className="text-gray-400 text-center mt-6 text-sm md:text-base px-26">
+        <p className="text-gray-400 text-center mt-6 text-sm md:text-base px-4 md:px-20">
           Hi, I am a Data Engineer based in Lahore ,Pakistan, currently pursuing
           my BS in Computer Science at Riphah International University. I
           specialize in building end-to-end ETL/ELT pipelines and
@@ -17,7 +17,7 @@ const About = () => {
           production-ready environments through Dimensional Modeling,
           specializing in Star Schema and SCD patterns for scalable analytics.
         </p>
-        <div className="flex items-center justify-center mx-2 pt-2 gap-2">
+        <div className="flex flex-col md:flex-row items-center justify-center mx-2 pt-2 gap-4">
           <img
             src="aboutImg (2).png"
             className="px-4 h-[290px] py-4 max-w-[45%]"
@@ -31,8 +31,8 @@ const About = () => {
           <h1 className="text-center text-gray-300 mt-12 font-bold text-3xl">
             My Skills
           </h1>
-          <div className="w-[500px] h-[550px] border border-white/20 rounded-3xl mt-6 shadow-[0_0_20px_rgba(255,255,255,0.25)] overflow-hidden bg-white/5 backdrop-blur-md">
-            <div className="grid grid-rows-2 grid-cols-2 h-full w-full">
+          <div className="w-full max-w-[500px] h-[550px] border border-white/20 rounded-3xl mt-6 shadow-[0_0_20px_rgba(255,255,255,0.25)] overflow-hidden bg-white/5 backdrop-blur-md">
+            <div className="grid grid-cols-1 sm:grid-cols-2 h-full w-full">
               <div className="border-b border-r border-white/10 p-8 flex flex-col justify-center gap-3">
                 <h3 className="text-xl font-semibold">
                   Cloud & Data Platforms
@@ -69,7 +69,7 @@ const About = () => {
           <h1 className="text-center text-gray-300 mt-12 font-bold text-3xl">
             My Experience
           </h1>
-          <div className="w-[500px] h-[550px] border border-white/20 rounded-3xl mt-6 shadow-[0_0_20px_rgba(255,255,255,0.25)] overflow-hidden bg-white/5 backdrop-blur-md">
+          <div className="w-full max-w-[500px] h-[550px] border border-white/20 rounded-3xl mt-6 shadow-[0_0_20px_rgba(255,255,255,0.25)] overflow-hidden bg-white/5 backdrop-blur-md">
             <div className="grid grid-rows-2 h-full w-full">
               <div className="p-8 flex border-b border-white/10 flex-col justify-center gap-3">
                 <h3 className="text-xl font-semibold">
