@@ -17,10 +17,10 @@ const About = () => {
           production-ready environments through Dimensional Modeling,
           specializing in Star Schema and SCD patterns for scalable analytics.
         </p>
-        <div className="flex flex-col md:flex-row items-center justify-center mx-2 pt-2 gap-4">
+        <div className="flex flex-col md:flex-row items-center justify-center md:mx-2 pt-2 gap-4">
           <img
             src="aboutImg (2).png"
-            className="px-4 h-[290px] py-4 w-full md:max-w-[45%]"
+            className="px-2 md:px-4 h-[290px] py-4 w-full md:max-w-[45%]"
           />
           <img src="aboutImg.png" className="px-4 h-[257px] w-full md:max-w-[45%]" />
         </div>
