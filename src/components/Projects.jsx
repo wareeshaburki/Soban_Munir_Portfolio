@@ -23,42 +23,50 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="px-10 pt-20 scroll-mt-20">
-      <h1 className="text-center font-bold text-5xl mb-16">My Projects</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
+    <section id="projects" className="px-6 md:px-10 pt-20 scroll-mt-20">
+      <h1 className="text-center font-bold text-3xl md:text-5xl mb-12 md:mb-16">
+        My Projects
+      </h1>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 max-w-6xl mx-auto">
         {projectData.map((project) => (
           <div
             key={project.id}
             className="group relative bg-white/5 border border-white/10 rounded-3xl overflow-hidden hover:border-blue-500/40 transition-all duration-500 shadow-2xl"
           >
-            <div className="relative h-[300px] overflow-hidden">
+            <div className="relative h-[200px] md:h-[300px] overflow-hidden">
               <img
                 src={project.image}
                 className="w-full mx-auto h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100"
+                alt={project.title}
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
                 <a
                   href={project.link}
                   target="_blank"
+                  rel="noreferrer"
                   className="bg-white text-black px-6 py-2 rounded-full font-bold text-sm hover:bg-blue-500 hover:text-white transition-colors"
                 >
                   View Architecture ↗
                 </a>
               </div>
             </div>
-            <div className="p-8">
-              <div className="flex gap-2 mb-4">
+
+            <div className="p-6 md:p-8">
+              <div className="flex flex-wrap gap-2 mb-4">
                 {project.tags.map((tag, index) => (
                   <span
                     key={index}
-                    className="flex text-[10px] text-center items-center uppercase tracking-widest bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full border border-blue-500/20"
+                    className="flex text-[9px] md:text-[10px] text-center items-center uppercase tracking-widest bg-blue-500/10 text-blue-400 px-3 py-1 rounded-full border border-blue-500/20"
                   >
                     {tag}
                   </span>
                 ))}
               </div>
-              <h3 className="text-2xl font-bold mb-3">{project.title}</h3>
-              <p className="text-gray-400 text-sm leading-relaxed">
+              <h3 className="text-xl md:text-2xl font-bold mb-3">
+                {project.title}
+              </h3>
+              <p className="text-gray-400 text-xs md:text-sm leading-relaxed">
                 {project.description}
               </p>
             </div>
