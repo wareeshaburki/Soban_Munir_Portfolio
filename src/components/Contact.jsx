@@ -31,12 +31,15 @@ const Contact = () => {
       <div className="flex flex-col md:flex-row justify-evenly items-center max-w-7xl mx-auto">
         <div className="w-full md:w-[40%] px-10 flex flex-col items-center md:items-start text-center md:text-left">
           <h2 className="text-blue-400 text-2xl font-semibold mb-4">
-            Let's Connect
+            Let’s Build Your Data Infrastructure 
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6">
-            I’d love to connect with you! Whether you have a question or a
-            project idea, feel free to reach out. I’m always open to new
-            opportunities and collaborations.
+            Ready to turn your raw data
+            into a production-grade asset? If you are looking for any Data
+            Engineering expertise, I’m here to help.<br/> I’m always open to
+            discussing new data challenges, from ETL/ELT optimization to
+            designing scalable Data Warehouses. Let’s connect and build a
+            solution that drives your business forward.
           </p>
           <p className="text-gray-300">
             <b className="text-blue-400">Email: </b>
