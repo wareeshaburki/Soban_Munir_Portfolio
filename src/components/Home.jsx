@@ -25,6 +25,7 @@ const Home = () => {
           </a>
           <a
             href="/Soban_Munir_Resume.pdf"
+            download="Soban Munir.pdf"
             className="border border-white/20 px-8 py-4 rounded-full font-medium hover:bg-white/10 transition text-center"
           >
             Download CV ↓
