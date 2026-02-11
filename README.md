@@ -41,7 +41,7 @@ A high-performance, fully responsive portfolio built for **Soban Munir** to show
 This project was built with a focus on clean code and professional aesthetics. If you have any suggestions or want to collaborate on a similar build, feel free to reach out!
 
 * **Developed by:** Wareesha Burki 👩‍💻
-* **LinkedIn:** [linkedin.com/in/wareesha-burki](https://linkedin.com/in/wareesha-burki)
+* **LinkedIn:** [linkedin.com/in/wareesha-burki](https://www.linkedin.com/in/wareesha-burki-b34538317/)
 * **Client:** Soban Munir (Data Engineer)
 
 ---
