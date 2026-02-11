@@ -34,7 +34,7 @@ A high-performance, fully responsive portfolio built for **Soban Munir** to show
 │   └── main.jsx         # Application entry point
 └── index.html           # HTML template
 
----
+```
 
 ## 🤝 Contributing & Feedback
 
