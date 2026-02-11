@@ -1,16 +1,56 @@
-# React + Vite
+# 🚀 Soban Munir | Data Engineering Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, fully responsive portfolio built for **Soban Munir** to showcase his expertise in the Microsoft Azure Data Stack, ETL/ELT pipelines, and Big Data transformations.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Tech Stack
+* **Frontend:** React.js (Vite)
+* **Styling:** Tailwind CSS
+* **Infrastructure:** Netlify (CI/CD)
+* **Communication:** EmailJS (Functional Contact Form)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Key Features
+* **Mobile-First Design:** Fully responsive layout that adapts seamlessly to Mobile, Tablet, and Desktop screens.
+* **Interactive UI:** Modern dark-themed interface with smooth navigation and glassmorphism effects.
+* **End-to-End Showcase:** Dedicated sections for Medallion Architecture (Bronze-Silver-Gold) and Star Schema modeling projects.
+* **Direct Contact:** Integrated professional contact form that delivers messages directly to the email inbox.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Project Structure
+```text
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx   # Responsive nav with desktop-only links for cleanliness
+│   │   ├── Home.jsx     # Hero section with CTA and profile showcase
+│   │   ├── About.jsx    # Professional summary and skills grid
+│   │   ├── Projects.jsx # Interactive project cards with GitHub integration
+│   │   ├── Service.jsx  # Data Engineering service highlights
+│   │   └── Contact.jsx  # Functional form powered by EmailJS
+│   └── App.jsx          # Main application routing
+│   └── main.jsx         # Application entry point
+└── index.html           # HTML template
+
+---
+
+## 🤝 Contributing & Feedback
+
+This project was built with a focus on clean code and professional aesthetics. If you have any suggestions or want to collaborate on a similar build, feel free to reach out!
+
+* **Developed by:** Wareesha Burki 👩‍💻
+* **LinkedIn:** [linkedin.com/in/wareesha-burki](https://linkedin.com/in/wareesha-burki)
+* **Client:** Soban Munir (Data Engineer)
+
+---
+
+## 🌐 Live Demo
+
+Check out the live site here:  
+🚀 **[soban-munir-portfolio.netlify.app](https://soban-munir-portfolio.netlify.app/)**
+
+---
+
+<p align="center">Made with ❤️ by Wareesha Burki</p>
