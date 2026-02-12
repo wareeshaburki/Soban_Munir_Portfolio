@@ -14,7 +14,8 @@ const Home = () => {
           Actionable <span className="text-blue-400">Insights</span>
         </h1>
         <p className="text-gray-400 mt-6 max-w-2xl text-xs md:text-base">
-          Specializing in Data Engineering pipelines...
+          Specializing in Data Engineering pipelines and Advanced Analytics. I
+          bridge the gap between complex data and strategic decision making.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mt-10">
           <a

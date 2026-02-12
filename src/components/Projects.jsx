@@ -8,7 +8,7 @@ const Projects = () => {
       description:
         "Built a multi-layered Medallion Architecture to automate data ingestion from SQL sources into Azure Data Lake. It features a production-ready Star Schema in Synapse Analytics for high-performance enterprise reporting.",
       image: "adventure.jpeg",
-      tags: ["Azure Data Factory", "Databricks,Synapse", "PySpark", "Power BI"],
+      tags: ["Azure Data Factory", "Databricks","Synapse", "PySpark", "Power BI"],
       link: "https://github.com/soban-munir/Azure-Data-Engineering-Project",
     },
     {
